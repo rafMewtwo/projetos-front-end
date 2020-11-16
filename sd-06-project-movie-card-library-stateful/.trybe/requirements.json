@@ -1,0 +1,71 @@
+{
+  "requirements": [
+    { "description": "Verifica o componente <AddMovie />", "bonus": false },
+    {
+      "description": "Verifica o input de título do componente <AddMovie />",
+      "bonus": false
+    },
+    {
+      "description": "Verifica o input de subtítulo do componente <AddMovie />",
+      "bonus": false
+    },
+    {
+      "description": "Verifica o input de imagem do componente <AddMovie />",
+      "bonus": false
+    },
+    {
+      "description": "Verifica o input de sinopse do componente <AddMovie />",
+      "bonus": false
+    },
+    {
+      "description": "Verifica o input de avaliação do componente <AddMovie />",
+      "bonus": false
+    },
+    {
+      "description": "Verifica o select de gênero do componente <AddMovie />",
+      "bonus": false
+    },
+    {
+      "description": "Verifica botão de criar filme do componente <AddMovie />",
+      "bonus": false
+    },
+    { "description": "Verifica o componente <Header />", "bonus": false },
+    { "description": "Verifica o componente <MovieCard />", "bonus": false },
+    { "description": "Verifica o componente <MovieLibrary />", "bonus": false },
+    {
+      "description": "Verifica o estado inicial do component <MovieLibrary />",
+      "bonus": false
+    },
+    {
+      "description": "Verifica se o componente <MovieLibrary /> renderiza o componente <SearchBar />",
+      "bonus": false
+    },
+    {
+      "description": "Verifica se o componente <MovieLibrary /> renderiza o componente <MovieList />",
+      "bonus": false
+    },
+    {
+      "description": "Verifica se o componente <MovieLibrary /> renderiza o componente <AddMovie />",
+      "bonus": false
+    },
+    { "description": "Verifica o componente <MovieList />", "bonus": false },
+    { "description": "Verifica o componente <Rating />", "bonus": false },
+    { "description": "Verifica o componente <SearchBar />", "bonus": false },
+    {
+      "description": "Verifica o Form dentro do componente <SearchBar />",
+      "bonus": false
+    },
+    {
+      "description": "Verifica o input de texto do componente <SearchBar />",
+      "bonus": false
+    },
+    {
+      "description": "Verfica que o componente <SearchBar /> renderiza uma checkbox.",
+      "bonus": false
+    },
+    {
+      "description": "Verifica se o componente <SearchBar /> renderiza um select de gênero",
+      "bonus": false
+    }
+  ]
+}

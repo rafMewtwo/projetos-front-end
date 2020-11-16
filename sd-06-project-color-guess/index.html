@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::Adivinhe as cores::</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Adivinhe a cor e ganhe premios!</h1>
+    </header>
+    <table>
+        <tr>
+            <td>
+                <p>Advinhe a cor : </p>
+            </td>
+            <td>
+                <p id="rgb-color" class="font"></p>
+            </td>
+        </tr>
+        <td>
+            <p>Pontuação : </p>
+        </td>
+        <td>
+            <p id="points" class="font"></p>
+        </td>
+        <td>
+            <p>Wins : </p>
+        </td>
+        <td>
+            <p id="winsPoints" class="font">0</p>
+        </td>
+        <tr>
+            <td>
+                <p>Tentativas : </p>
+            </td>
+            <td>
+                <p id="match" class="font">0</p>
+            </td>
+            <td>
+                <p>Loses : </p>
+            </td>
+            <td>
+                <p id="losesPoints" class="font">0</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Level : </p>
+            </td>
+            <td>
+                <p id="level" class="font">1</p>
+            </td>
+        </tr>
+    </table>
+    
+    <div id="color-option"></div>
+    <h2 id="answer">Escolha uma cor!</h2>
+
+    <button id="reset">Resetar jogo</button>
+    <button id="continue">Continuar</button>
+    <button id="changeLevel">Mudar Dificuldades</button>
+    <br><br>
+    <button id="premiumButtom">Receber PRÊMIO</button>
+    <br><br>
+    <div id="premiumDiv"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

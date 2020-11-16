@@ -1,0 +1,18 @@
+.ball {
+    border-radius: 50%;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #000000;
+    margin: 2px 2px 2px 2px;
+}
+
+.font {
+    font-weight: bold;
+}
+#premiumButtom {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}

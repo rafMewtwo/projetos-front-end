@@ -1,0 +1,48 @@
+{
+  "requirements": [{
+    "description": "Implementar módulo de acesso à API do Mercado Livre",
+    "bonus": false
+  }, {
+    "description": "Criar página de listagem de produtos vazia",
+    "bonus": false
+  }, {
+    "description": "Criar página do carrinho de compras",
+    "bonus": false
+  }, {
+    "description": "Listar as categorias de produtos disponíveis via API na página principal",
+    "bonus": false
+  }, {
+    "description": "Buscar por termos e receber uma listagem de produtos, com dados resumidos, associados a esses termos",
+    "bonus": false
+  }, {
+    "description": "Selecionar uma categoria e ver somente produtos daquela categoria",
+    "bonus": false
+  }, {
+    "description": "Clicar na exibição resumida de um produto e ir para uma tela com sua exibição detalhada",
+    "bonus": false
+  }, {
+    "description": "Adicionar produtos a partir da tela de listagem de produtos",
+    "bonus": false
+  }, {
+    "description": "Adicionar um produto ao carrinho a partir de sua tela de exibição detalhada",
+    "bonus": false
+  }, {
+    "description": "Visualizar a lista de produtos adicionados ao carrinho em sua página e manipular sua quantidade",
+    "bonus": false
+  }, {
+    "description": "Avaliar e comentar acerca de um produto em sua tela de exibição detalhada",
+    "bonus": false
+  }, {
+    "description": "Finalizar compra, vendo um resumo dela, preenchendo os meus dados e escolhendo a forma de pagamento",
+    "bonus": false
+  }, {
+    "description": "Ver junto ao ícone do carrinho a quantidade de produtos dentro dele, em todas as telas em que ele aparece",
+    "bonus": true
+  }, {
+    "description": "A quantidade de produtos adicionados ao carrinho deve ser limitada pela quantidade disponível em estoque",
+    "bonus": true
+  }, {
+    "description": "Ver quais produtos tem frete grátis",
+    "bonus": true
+  }]
+}

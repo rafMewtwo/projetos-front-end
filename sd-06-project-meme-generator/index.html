@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+   
+</head>
+<body>
+    <input id="text-input" maxlength="60">
+    <br><br>
+    <input type="file" id="meme-insert" accept="image/*">
+    <br><br>
+    <div id="meme-image-container">
+            <img id="meme-image">
+            <h2 id="meme-text"></h2>
+    </div>
+    <!-- link abaixo necessario para usar o jquery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+    <script>
+        $(function(){
+            $('#meme-insert').change(function(){
+                let file = $(this)[0].files[0] //pega o link
+                let fileReader = new FileReader() //transforma o link em pegavel, cheio de letras
+                fileReader.onloadend = function(){
+                    $('#meme-image').attr('src', fileReader.result) //add o src
+                }
+                fileReader.readAsDataURL(file)
+            })
+        })
+
+
+    </script>
+    
+</body>
+</html>

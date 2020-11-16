@@ -1,0 +1,23 @@
+.icon-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-box img {
+    width:30px;
+}
+
+.empty-cart {
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.empty-cart img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.empty-cart span {
+    font-weight: bold;
+}

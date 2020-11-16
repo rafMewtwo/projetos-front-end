@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "no-console": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": 0,
+    "object-curly-newline": ["error", { "multiline": true }],
+    "arrow-parens": [2, "always"]
+  },
+    "env": {
+      "browser": true,
+      "node": true
+    }
+}
